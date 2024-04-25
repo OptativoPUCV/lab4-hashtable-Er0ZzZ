@@ -121,7 +121,7 @@ Pair * firstMap(HashMap * map) {
         map->current = i;
         return map->buckets[i];
       }
-      i++
+      i++;
     }
   
   return NULL;
