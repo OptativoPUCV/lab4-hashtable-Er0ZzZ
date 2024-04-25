@@ -55,6 +55,9 @@ void insertMap(HashMap * map, char * key, void * value) {
       posicion = (posicion + 1) % map->capacity;
       i++;
     }
+  map->buckets[posicion] = createPair(key, value);
+  map->current = posicion;
+  map->size++;
 }
 
 void enlarge(HashMap * map) {
