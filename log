@@ -32,3 +32,16 @@ Thu 25 Apr 2024 06:20:36 PM UTC:
  tests:  11|2
 total_score: 50/70
 4f83257
+Thu 25 Apr 2024 06:45:06 PM UTC: 
+ hashmap.c | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+In file included from test.c:4:
+hashmap.c: In function ‘firstMap’:
+hashmap.c:124:10: error: expected ‘;’ before ‘}’ token
+  124 |       i++
+      |          ^
+      |          ;
+  125 |     }
+      |     ~     
+Compilation failed
+1f69911
